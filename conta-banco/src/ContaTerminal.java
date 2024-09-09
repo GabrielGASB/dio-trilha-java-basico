@@ -9,23 +9,18 @@ public class ContaTerminal {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("");
         System.out.println("Digite seu nome: ");
         String nomeCliente = scanner.next();
 
-        System.out.println("");
         System.out.println("Digite seu sobrenome: ");
         String sobrenomeCliente = scanner.next();
 
-        System.out.println("");
         System.out.println("Por favor, digite o número da Agência: ");
         String agencia = scanner.next();
 
-        System.out.println("");
         System.out.println("Digite o número da sua conta: ");
         int numeroConta = scanner.nextInt();
 
-        System.out.println("");
         System.out.println("Digite o saldo no formato 4.500,30 (com ponto e vírgula como separadores):");
         String entrada = scanner.next();
         String saldoFormatado;
@@ -38,7 +33,7 @@ public class ContaTerminal {
         String fichaTecnica = """
                 	************************************************************
                     Olá %s %s.
-                	Obrigado por criar uma conta em nosso banco. 
+                	Obrigado por criar uma conta em nosso banco.
                 	O número de sua agência é: %s.
                 	Sua conta é: %d.
                 	O saldo de R$%s já está disponível para saque.
