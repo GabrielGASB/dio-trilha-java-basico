@@ -29,7 +29,6 @@ public class ContaTerminal {
         DecimalFormat formatador = new DecimalFormat("#,##0.00");
         saldoFormatado = String.format(formatador.format(saldo));
 
-        System.out.println("");
         String fichaTecnica = """
                 	************************************************************
                     Olá %s %s.
